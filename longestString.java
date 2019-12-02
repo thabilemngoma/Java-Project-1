@@ -1,14 +1,12 @@
-package Java;
-
 import java.util.Scanner;
 
 public class longestString {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("How many names you have in mind?: ");
+        System.out.println("How many words you have in mind?: ");
         int number = input.nextInt();
         String arr[] = new String[number+1];
-        System.out.println("Now enter the " +number+" names you were thinking of:");
+        System.out.println("Please enter the " +number+" words you were thinking of and remember to press enter key after each word:");
         for (int i=0;i<=number;i++){
             arr[i] = input.nextLine();
         }

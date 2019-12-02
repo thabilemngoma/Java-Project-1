@@ -1,5 +1,3 @@
-package Java;
-
 import java.util.Scanner;
 
 public class frameSomeText {
@@ -10,7 +8,7 @@ public class frameSomeText {
         System.out.println("How many words you want to frame?: ");
         size = Integer.parseInt(input.nextLine());
         String[] inputs = new String[size];
-        System.out.println("Now enter "+ size+ " words");
+        System.out.println("Now enter "+ size+ " words. Remember to hit Enter key after entering each word " );
         for (int i = 0; i < size; i++) {
             inputs[i] = input.nextLine();
         }
